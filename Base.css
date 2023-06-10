@@ -1,0 +1,49 @@
+.base-2jDfDU {
+    position: relative;
+  }
+  
+  
+.container-ZMc96U {
+    top: 10;
+    left: 0;
+    width: 1288px; /* Modifier la largeur souhaitée */
+    height: 70px; /* Modifier la hauteur souhaitée */
+    padding: 5px;
+    border-radius: 4px;
+    background-color: red; /* Remplacer par la couleur souhaitée */
+    z-index: 1;
+    
+  }
+  
+  .base-2jDfDU .container-ZMc96U {
+    display: inline-block;
+    width: 1288px; /* Modifier la largeur souhaitée */
+    height: 70px; /* Modifier la hauteur souhaitée */
+    padding: 5px 500px;
+    border-radius: 4px;
+  }
+  
+  .base-2jDfDU .container-ZMc96U a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+  
+  
+  
+  .userPopoutOuter-1OHwPL,
+  .userProfileOuter-2tQwNf,
+  .userProfileOuterThemed-2BgJCM,
+  .profileColors-2AgAV4 {
+    width: 320px; /* Modifier la largeur souhaitée */
+    height: 900px; /* Modifier la hauteur souhaitée */
+    top: 50px; /* Modifier la position verticale souhaitée */
+    left: 20px; /* Modifier la position horizontale souhaitée */
+    padding: 0px; /* Modifier le padding souhaité */
+    
+  }
+  
+  * {
+      margin: 0;
+      ;
+  }

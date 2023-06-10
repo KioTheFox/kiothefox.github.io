@@ -1,0 +1,39 @@
+.wordmark-2u86JB path {
+    display: none !important;
+  }
+  .theme-dark .wordmark-2u86JB::before {
+    content: " K i o T h e F o x";
+    font-size: 12px;
+    font-family: "Poiret one" !important;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+    border-radius: 5px;
+    padding: 7px 11px 7px 7px;
+    margin-left: 1px;
+    margin-top: 5px;
+    pointer-events: all;
+    transition: 0.5s ease-in-out;
+  }
+  .wordmark-2u86JB:hover:before {
+    content: " K i o T h e F o x";
+    letter-spacing: 2px;
+  }
+  
+  :root {
+    --padding-size: 39px; /* Définir la taille de padding souhaitée */
+  }
+  
+  .theme-dark .wordmark-2u86JB::before,
+  .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub:before,
+  .wrapper-3kah-n:hover .childWrapper-1j_1u:before {
+    /* ... autres styles ... */
+    padding: var(--padding-size);
+  }
+  
+  .wordmark-2u86JB:hover::before,
+  .wrapper-3kah-n:hover::before .childWrapper-1j_1ub:hover::before {
+    /* ... autres styles lors du survol ... */
+    padding: calc(var(--padding-size) * 1.3); /* Augmenter la taille de padding lors du survol */
+  }

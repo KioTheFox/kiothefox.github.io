@@ -1,0 +1,63 @@
+.background-3d_SjE {
+    background-image: url('https://media.discordapp.net/attachments/983969661077028914/1117013817906450502/image_2022-05-07_17-35-52-removebg-preview.png?width=362&height=671');
+    background-size: 600px 620px ;
+    padding: ;
+    
+}
+.fieldList-in8WkP {
+    background-color: transparent;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.field-21XZwa {
+  
+    width: calc((75%/2) - 10px);
+      margin: 38px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.836);
+    max-height: unset;
+    flex-flow: column;
+    padding: 30px;
+    display: flex;
+    margin-top: 0 !important;
+    position: relative;
+    overflow-y: none;
+    height: 279px;
+    margin-bottom: 0;
+    
+}
+.field-21XZwa::-webkit-scrollbar {
+    width: 0;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    background-color: rgba(162, 0, 255, 0.644);) !important;
+    border-radius: 6px;
+    transition: .6s;
+    
+}
+.field-21XZwa .fieldButton-14lHvK:hover {
+    background-color: rgba(42, 0, 48, 0.575);) !important;
+}
+.field-21XZwa .fieldButton-14lHvK:hover > div {
+    background-image: none !important;
+}
+.field-21XZwa .fieldButton-14lHvK:nth-child(1) {
+    right: 5px;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    width: 50%;
+    margin-right: 0;
+    position: relative;
+    right: 10 !important;
+}
+.field-21XZwa .fieldButtonList-28BYbB {
+    gap: 5px;
+}
+
+
+.theme-dark .floating-window-titlebar {
+  background-color: rgba(45, 0, 51, 0.918);
+  backdrop-filter: blur(2px);
+}
