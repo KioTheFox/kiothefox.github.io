@@ -1,0 +1,101 @@
+.theme-dark .placeholder-1rCBhr {
+  visibility: hidden !important;
+  
+}
+
+@keyframes typeEffect {
+  0% {
+    content: "";
+  }
+  4.5% {
+    content: "T";
+  }
+  9% {
+    content: "Ta";
+  }
+  13.5% {
+    content: "Tal";
+  }
+  18% {
+    content: "Talk";
+  }
+  22.5% {
+    content: "Talki";
+  }
+  27% {
+    content: "Talkin";
+  }
+  31.5% {
+    content: "Talking";
+  }
+  36% {
+    content: "Talking ";
+  }
+  40.5% {
+    content: "Talking w";
+  }
+  45% {
+    content: "Talking wi";
+  }
+  49.5% {
+    content: "Talking wit";
+  }
+  54% {
+    content: "Talking with";
+  }
+  58.5% {
+    content: "Talking with ";
+  }
+  63% {
+    content: "Talking with s";
+  }
+  67.5% {
+    content: "Talking with so";
+  }
+  72% {
+    content: "Talking with som";
+  }
+  76.5% {
+    content: "Talking with some";
+  }
+  81% {
+    content: "Talking with someo";
+  }
+  85.5% {
+    content: "Talking with someon";
+  }
+  90% {
+    content: "Talking with someone";
+  }
+  94.5% {
+    content: "Talking with someone.";
+  }
+  99% {
+    content: "Talking with someone..";
+  }
+  100% {
+    content: "Talking with someone...";
+  }
+}
+
+.theme-dark .placeholder-1rCBhr::before {
+  color: rgba(255, 255, 255, 0.2);
+  font-family: "Poppins";
+  font-size: 13px;
+  visibility: visible !important;
+  animation:  typeEffect 5s alternate-reverse infinite
+}
+
+
+
+
+
+
+.theme-dark .placeholder-1rCBhr::before {
+  content: "Talking with someone";
+  color: rgba(255, 255, 255, 0.2);
+  font-family: "Poppins";
+  font-size: 20px;
+  visibility: visible !important;
+}
+
