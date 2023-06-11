@@ -29,20 +29,6 @@
     padding: 4px 8px;
   }
   
-  
-  
-  .userPopoutOuter-1OHwPL,
-  .userProfileOuter-2tQwNf,
-  .userProfileOuterThemed-2BgJCM,
-  .profileColors-2AgAV4 {
-    width: 320px; /* Modifier la largeur souhaitée */
-    height: 900px; /* Modifier la hauteur souhaitée */
-    top: 50px; /* Modifier la position verticale souhaitée */
-    left: 20px; /* Modifier la position horizontale souhaitée */
-    padding: 0px; /* Modifier le padding souhaité */
-    
-  }
-  
   * {
       margin: 0;
       ;
