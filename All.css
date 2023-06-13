@@ -210,20 +210,21 @@ rx: 2px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#dv-mount {
+  position: relative;
+  background: linear-gradient(135deg, #1b004e, #31054e);
+  animation: pulsate 2s ease-in-out infinite;
+  border: 5px solid;
+  border-image-slice: 0;
+  border-image-source: linear-gradient(5deg, #e600ac, #31054e);
+  animation: gradient-border 5s ease-in-out infinite;
+  display: flex;
+			height: 95px !important;
+			justify-content: center;
+			position: fixed;
+			width: 240px;
+			z-index: 1;
+}
 
 
 
@@ -239,8 +240,7 @@ rx: 2px;
   
 }
 
-.panels-3wFtMD,
-#dv-mount {
+.panels-3wFtMD {
   position: relative;
   background: linear-gradient(135deg, #1b004e, #31054e);
   animation: pulsate 2s ease-in-out infinite;
