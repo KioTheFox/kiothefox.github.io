@@ -239,7 +239,8 @@ rx: 2px;
   
 }
 
-.panels-3wFtMD {
+.panels-3wFtMD,
+#dv-mount {
   position: relative;
   background: linear-gradient(135deg, #1b004e, #31054e);
   animation: pulsate 2s ease-in-out infinite;
