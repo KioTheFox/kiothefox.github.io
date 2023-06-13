@@ -6,19 +6,19 @@
 .container-ZMc96U {
     top: 10;
     left: 0;
-    width: 1288px; /* Modifier la largeur souhaitée */
-    height: 70px; /* Modifier la hauteur souhaitée */
+    width: 1288px; 
+    height: 70px; 
     padding: 5px;
     border-radius: 4px;
-    background-color: red; /* Remplacer par la couleur souhaitée */
+    background-color: red; 
     z-index: 1;
     
   }
   
   .base-2jDfDU .container-ZMc96U {
     display: inline-block;
-    width: 1288px; /* Modifier la largeur souhaitée */
-    height: 70px; /* Modifier la hauteur souhaitée */
+    width: 1288px; 
+    height: 70px; 
     padding: 5px 500px;
     border-radius: 4px;
   }
